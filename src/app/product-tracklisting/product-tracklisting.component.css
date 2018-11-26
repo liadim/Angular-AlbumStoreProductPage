@@ -3,8 +3,10 @@
     padding-top:10px;
 }
 
-li {
+ul {
     list-style-type: none;
+}
+li {
     display:block;
     line-height:30px;
 }
