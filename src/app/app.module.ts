@@ -21,8 +21,8 @@ import { ProductService } from './product.service'
     FormsModule,
     HttpModule
   ],
-  providers: [ // Services to be available in the injector of this module and its children
-    ProductService // this is done in a different way since Angular 6
+  providers: [
+    ProductService
   ],
   bootstrap: [AppComponent] // only in root module
 })
