@@ -27,7 +27,7 @@ const appRoutes:Routes = [
     ProductTracklistingComponent,
     ProductListComponent
   ],
-  imports: [ // ngModules used for general functionality
+  imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
